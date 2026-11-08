@@ -24,7 +24,7 @@ jobs:
       - run: npm run build
         if: vars.PAGES_ENABLED == 'true'
         env:
-          NEXT_PUBLIC_BASE_PATH: /adaptive-workout-tracker
+          NEXT_PUBLIC_BASE_PATH: /raegan-rowing-tracker
       - uses: actions/upload-pages-artifact@v3
         if: vars.PAGES_ENABLED == 'true'
         with:

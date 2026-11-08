@@ -24,7 +24,7 @@
       if ('caches' in window) {
         const names = await window.caches.keys();
         for (const name of names) {
-          if (name.startsWith('workout-') && await window.caches.delete(name)) cachesCleared++;
+          if (name.startsWith('raegan-rowing-') && await window.caches.delete(name)) cachesCleared++;
         }
       }
 

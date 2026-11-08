@@ -14,10 +14,10 @@ test('recovery removes only tracker caches and scoped worker without touching sa
   const removed = [];
   const unregistered = [];
   const location = {
-    href: 'https://chuckdotexe.github.io/adaptive-workout-tracker/repair.html',
+    href: 'https://chuckdotexe.github.io/raegan-rowing-tracker/repair.html',
     replace: () => { throw new Error('Must not redirect automatically'); },
   };
-  const scope = 'https://chuckdotexe.github.io/adaptive-workout-tracker/';
+  const scope = 'https://chuckdotexe.github.io/raegan-rowing-tracker/';
   const storage = new Proxy({}, { get: () => { throw new Error('Recovery must not access user storage'); } });
 
   vm.runInNewContext(source, {
@@ -27,7 +27,7 @@ test('recovery removes only tracker caches and scoped worker without touching sa
       { scope: 'https://chuckdotexe.github.io/other-app/', unregister: async () => { throw new Error('Other app worker touched'); } },
     ] } },
     window: { location, caches: {
-      keys: async () => ['workout-old', 'unrelated-cache', 'workout-new'],
+      keys: async () => ['raegan-rowing-old', 'workout-lifting-cache', 'unrelated-cache', 'raegan-rowing-new'],
       delete: async key => { removed.push(key); return true; },
     } },
     localStorage: storage,
@@ -38,7 +38,7 @@ test('recovery removes only tracker caches and scoped worker without touching sa
 
   await onClick();
   assert.deepEqual(unregistered, [scope]);
-  assert.deepEqual(removed, ['workout-old', 'workout-new']);
+  assert.deepEqual(removed, ['raegan-rowing-old', 'raegan-rowing-new']);
   assert.equal(freshApp.href, './?cache-repaired=12345');
   assert.equal(reopen.hidden, false);
   assert.equal(button.disabled, false);

@@ -1,725 +1,595 @@
 {
-  "version": 1,
-  "revision": "processed-04c8051b-f800-4cf6-a610-8695033189d8",
-  "updatedAt": "2026-11-07T18:09:08.128Z",
-  "processedSessions": [
-    {
-      "id": "b4774b22-e8b1-406f-914c-cab7b67a2f86",
-      "digest": "e8004f9df0977d9ae13795e8843f75b3020bd6858c206e8741ad7b242b7d8dd4"
-    },
-    {
-      "id": "beb44c55-605f-490c-ad14-a6c94d80947a",
-      "digest": "9eab2804465f1b305296225ca81b137ef80489d158f58d43006c09170fa0c6b3"
-    },
-    {
-      "id": "471656aa-420f-449b-bdf9-3c1a4ecb1650",
-      "digest": "75babb0213de3428b27eb0292fd47535e62a4dc7d27e9039d92fc00b8d168db2"
-    },
-    {
-      "id": "1cc32550-f511-40e9-a34e-e439bdf9e161",
-      "digest": "55727d42d0e8dadaa8e9fe3f1bd19c90ad7970a56bb0983efaad8d67266743dc"
-    },
-    {
-      "id": "170af20a-48f1-4278-b4be-70a4625d8cf2",
-      "digest": "03bcebffd9038990e29c0fc8d2933b32027a83b2dd00c5ca183f2957953074ab"
-    },
-    {
-      "id": "f3d9e728-bcfb-407a-922f-79779a6fe721",
-      "digest": "26408bd04acd9bcceab8d660566b69bcb4e4a139650448347bf5671fe114d432"
-    },
-    {
-      "id": "ef3fc068-7aad-4fb9-a91f-f8225ab9c880",
-      "digest": "528d72be79170302973e8f67a97952d8ab1b87d9c1ae7870e8b8214ff48473c9"
-    },
-    {
-      "id": "d6cb1561-ea1a-4f02-ab4e-109cadb6ab40",
-      "digest": "b8a0b7579b7d4cdf03667e48ddb82ec2fa968cd97b50e4cde92f0277f5a7aac3"
-    },
-    {
-      "id": "8a33c9bd-898c-4803-a82c-359a6560bed5",
-      "digest": "403ac29a8bad07c11fb7184f5c39fd996e942d601eb65b39c43fc0d234eae85c"
-    },
-    {
-      "id": "b768ca6f-39a6-44c0-851e-9dcb52e9c97c",
-      "digest": "c611971e7c8db82e03eff405d67d256dc762f2dc8041c6dbdb5a1381dcb65e80"
-    },
-    {
-      "id": "a8d7978b-2ad5-4310-9251-fed16e584511",
-      "digest": "9a0c3043774b6d7988a75c23b2dff874d66807778481abe0036cff6112340b38"
-    },
-    {
-      "id": "2d63f559-f508-4b0a-8ecc-dd16c4be85c4",
-      "digest": "94abcae36d9fc53dcc7895a2c0206101a88abaa41e2a1e6e601cb1fb08ca3ab6"
-    },
-    {
-      "id": "f5b7d68d-a7a7-4bdb-8b63-05f8f06b04ec",
-      "digest": "39b2da4dcf2f7dafa04025f93836ede348ec50d80e66bac73d3f2883d78a4645"
-    },
-    {
-      "id": "2596265e-d3b9-44a5-8ef2-26f3f7b36944",
-      "digest": "1cf000dc5fe190b7c350a68a8f6e6cfd81d1216a8d08cf525cdb02cff600f577"
-    },
-    {
-      "id": "1787f2c0-958c-4a94-9618-28b9b48e69df",
-      "digest": "b91866dbfb63ef46a4c85f17f7b1e13edddcf3e39fa4bb9d37f9e9f6d81c2792"
-    }
+  "schemaVersion": 1,
+  "revision": "rowing-november-2026-v1",
+  "updatedAt": "2026-11-08T21:41:54.712073+00:00",
+  "name": "Raegan Rowing",
+  "seasonStart": "2026-12-01",
+  "restDates": [
+    "2026-11-30"
   ],
   "workouts": [
     {
-      "week": 4,
-      "day": 1,
-      "dayLabel": "Monday - Upper A — Chest Focus",
-      "exercises": [
+      "id": "RG-20261109",
+      "date": "2026-11-09",
+      "week": 1,
+      "title": "Starting capacity",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
         {
-          "exerciseId": "w4d1e1",
-          "weight": 255,
-          "targetReps": 5,
-          "increment": null,
-          "reason": "November 2 improved 255 from 5/5/5/4 to 5/5/5/5, final RIR 2; third set still RIR 1. Earlier October 15 fell from 6 to 4 reps. Hold 255, aim 5 but stop at 4 when needed for RIR 2; build repeatable 5–6 before heavier load.",
-          "lastSet": {
-            "date": "2026-11-02",
-            "weight": 255,
-            "unit": "lb",
-            "reps": 5,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d1e2",
-          "weight": 80,
-          "targetReps": 8,
-          "increment": null,
-          "reason": "Nov 5 recorded 80 per hand for 9/9/9 at RIR 2/1/2, after Nov 2 recorded 75 for 4×10 ending RIR 3. Adopt 80 for 8 while stopping at RIR 2, with 75 as fallback if late sets exceed effort. Confirm the per-hand setting because the inherited label says 70. Use 75 if the 80 convention cannot be reproduced.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 80,
-            "unit": "lb",
-            "reps": 9,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "per hand"
-          },
-          "restSeconds": 90
+          "label": "Starting capacity",
+          "kind": "work",
+          "seconds": 1200,
+          "effort": "4",
+          "rate": "20\u201322"
         },
         {
-          "exerciseId": "w4d1e3",
-          "weight": 180,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "Initialize from demonstrated 180: November 2 12/12/12 at RIR 3/3/2, improved from October 26 ending RIR 1; October 15 ramped successfully to 180. Ceiling reached with reserve supports a conditional smallest available same-machine step, starting 8–10 reps at RIR 2. Confirm the available increment; retain 180 x 12 until known.",
-          "lastSet": {
-            "date": "2026-11-02",
-            "weight": 180,
-            "unit": "lb",
-            "reps": 12,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d1e4",
-          "weight": 160,
-          "targetReps": 10,
-          "increment": null,
-          "reason": "November 2 160 x 12/12/12 at RIR 3/2/1 improves on October 26 12/12/10 but repeats October 15 late RIR 1. Hold 160, begin 10–11 and stop at RIR 2 rather than forcing 12; no increase while late-set effort remains too high.",
-          "lastSet": {
-            "date": "2026-11-02",
-            "weight": 160,
-            "unit": "lb",
-            "reps": 12,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d1e5",
-          "weight": 15,
-          "targetReps": 17,
-          "increment": null,
-          "reason": "Initialize at successful 15: November 2 18/19/19 at RIR 2/2/1 improves on October 26 ramp from 10 to 15 x 18 at RIR 0. Retain 15 with 17–18 reps at RIR 2; fewer reps within range should preserve effort. Do not revert automatically to the earlier 10 or increase load now.",
-          "lastSet": {
-            "date": "2026-11-02",
-            "weight": 15,
-            "unit": "lb",
-            "reps": 19,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d1e6",
-          "weight": 70,
-          "targetReps": 10,
-          "increment": null,
-          "reason": "November 2 70 x 12/11 at RIR 4/1; October 26 heavier 80 x 8 reached RIR 0, and October 15 70 x 12 ended RIR 0. Hold 70 total for 10–11 at RIR 2, preserving reserve on the first set. Failed 80 is not a working baseline; no heavier trial now.",
-          "lastSet": {
-            "date": "2026-11-02",
-            "weight": 70,
-            "unit": "lb",
-            "reps": 11,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d1e7",
-          "weight": 30,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "30 x14/14/12 ended RIR 1 vs 15 at RIR 2 previously. Keep 30, start at 12 to preserve reserve; reduce reps within range if needed.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 30,
-            "reps": 12,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": ""
-          },
-          "restSeconds": 90
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         }
       ]
     },
     {
-      "week": 4,
-      "day": 2,
-      "dayLabel": "Tuesday - Lower A — Quad Focus + Delts",
-      "exercises": [
+      "id": "RG-20261111",
+      "date": "2026-11-11",
+      "week": 1,
+      "title": "Controlled intervals",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
         {
-          "exerciseId": "w4d2e1",
-          "weight": 300,
-          "targetReps": 10,
-          "increment": null,
-          "reason": "Nov 3 all four 300x10 sets ended RIR 2, versus Oct 27 280x10 and Oct 17 300x10 with RIR 4. Keep 300 while confirming the inherited 280 label reflects the same machine/depth; then trial its smallest available step for 6–8 at RIR 2. What step follows 300? Older 340 records lack effort/setup and do not establish a current working load.",
-          "lastSet": {
-            "date": "2026-11-03",
-            "weight": 300,
-            "unit": "lb",
-            "reps": 10,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d2e2",
-          "weight": 205,
-          "targetReps": 10,
-          "increment": null,
-          "reason": "Nov 3 repeated 205x10 for three sets at RIR 2 after Oct 27 ramped 185/185/205x10; older 185 sets support this improvement. Keep 205x10 until the smallest available barbell increment is confirmed, then trial it for 6–8 at RIR 2, returning to 205 if needed. What increment is available?",
-          "lastSet": {
-            "date": "2026-11-03",
-            "weight": 205,
-            "unit": "lb",
-            "reps": 10,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Controlled intervals 1/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
         },
         {
-          "exerciseId": "w4d2e3",
-          "weight": 140,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "Nov 6 140x14/13/14 all RIR 2 improves effort versus Oct 30 14/15/15 ending RIR 1; Nov 3 two sets of 12 were RIR 2. Keep this day's 10–12 range: 140x12 baseline, conditional smallest available stack-step trial at 10/RIR 2 once confirmed. What setting follows 140? No invented increment.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": 140,
-            "unit": "lb",
-            "reps": 14,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d2e4",
-          "weight": 175,
-          "targetReps": 15,
-          "increment": null,
-          "reason": "Nov 3 175x12/15/15 at RIR 2/3/2 improved on Oct 27 175x15 ending RIR 1 after 165. Older 165x15 supports progression to 175. Hold 175, build the opening set toward 15 at RIR 2 before another increase.",
-          "lastSet": {
-            "date": "2026-11-03",
-            "weight": 175,
-            "unit": "lb",
-            "reps": 15,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Controlled intervals 2/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
         },
         {
-          "exerciseId": "w4d2e6",
-          "weight": 90,
-          "targetReps": 20,
-          "increment": null,
-          "reason": "Nov 5 held 90 across 18/20/20 at RIR 2 on the confirmed machine after Nov 3 ramped 70/75/90×20. Keep 90 and build the opening set toward 20 at RIR 2. The older successful 100 setting is a bounded trial at 12–15 once all three sets reach 20 with reserve.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 90,
-            "unit": "lb",
-            "reps": 20,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 3/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 4/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 5/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         }
       ]
     },
     {
-      "week": 4,
-      "day": 3,
-      "dayLabel": "Wednesday - Cardio + Core",
-      "exercises": [
+      "id": "RG-20261113",
+      "date": "2026-11-13",
+      "week": 1,
+      "title": "Aerobic technique",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
         {
-          "exerciseId": "w4d3e1",
-          "weight": null,
-          "targetReps": 1,
-          "increment": null,
-          "reason": "Nov 4 completed 40 min at 2.6 mph/10%; Nov 6 post-lifting bout was 20 min at the same settings, versus Oct 28 30 min at 2.7/11. Preserve this day's original 30 min conversational target, using 2.6/10 only as a demonstrated reference. Different duration/context is not a speed gain; no automatic intensity increase or resistance load.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": null,
-            "unit": "",
-            "reps": 0,
-            "rir": null,
-            "bodyweight": false,
-            "loadSemantics": "total",
-            "kind": "cardio",
-            "durationMinutes": 20,
-            "speedMph": 2.600000000000001,
-            "inclinePercent": 10
-          },
-          "restSeconds": 90
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d3e2",
-          "weight": null,
-          "targetReps": 10,
-          "increment": null,
-          "reason": "Replaces unsupported hanging raises. Use forearm pads and straight legs, then actively curl pelvis upward. Bodyweight for 10–15 strict reps at 2 RIR; no comparable supported-chair record, so no past set is carried over.",
-          "restSeconds": 90
+          "label": "Aerobic technique 1/3",
+          "kind": "work",
+          "seconds": 360,
+          "effort": "4",
+          "rate": "18"
         },
         {
-          "exerciseId": "w4d3e3",
-          "weight": 45,
-          "targetReps": 15,
-          "increment": null,
-          "reason": "Initialize at successful 45 lb: November 4 both sets 15 at RIR 3, following October 28 ramp 40/45 x15 at RIR 2/5. Ceiling with reserve supports a smallest available same-cable step at 12 reps/RIR 2. What increment is available? Retain 45 x15 until confirmed; do not invent a setting.",
-          "lastSet": {
-            "date": "2026-11-04",
-            "weight": 45,
-            "unit": "lb",
-            "reps": 15,
-            "rir": 3,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 2/3",
+          "kind": "work",
+          "seconds": 360,
+          "effort": "4",
+          "rate": "20"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 3/3",
+          "kind": "work",
+          "seconds": 360,
+          "effort": "4",
+          "rate": "22"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         }
       ]
     },
     {
-      "week": 4,
-      "day": 4,
-      "dayLabel": "Thursday - Upper B — Back + Shoulders",
-      "exercises": [
+      "id": "RG-20261114",
+      "date": "2026-11-14",
+      "week": 1,
+      "title": "Long endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
         {
-          "exerciseId": "w4d4e1",
-          "weight": 145,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "Nov 5 repeated 145 for all three sets of 12 at RIR 3/3/2, after Oct 29 reached 145 only on the final set. At the ceiling, trial the smallest available same-machine step for 8–10 at RIR 2 once confirmed. What setting follows 145? Until then repeat 145.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 145,
-            "unit": "lb",
-            "reps": 12,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d4e2",
-          "weight": 80,
-          "targetReps": 8,
-          "increment": null,
-          "reason": "Nov 5 recorded 80 per hand for 9/9/9 at RIR 2/1/2, after Nov 2 recorded 75 for 4×10 ending RIR 3. Adopt 80 for 8 while stopping at RIR 2, with 75 as fallback if late sets exceed effort. Confirm the per-hand setting because the inherited label says 70. Use 75 if the 80 convention cannot be reproduced.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 80,
-            "unit": "lb",
-            "reps": 9,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "per hand"
-          },
-          "restSeconds": 90
+          "label": "Long endurance",
+          "kind": "work",
+          "seconds": 1500,
+          "effort": "3\u20134",
+          "rate": "18\u201322"
         },
         {
-          "exerciseId": "w4d4e3",
-          "weight": 65,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "Nov 5 recorded 65×12 twice at RIR 2 before 60×12 at RIR 2 on set three. Oct 29 reached 60×15 after working up from 45. Start at the demonstrated 65 for 10–12 and use 60 on later sets if needed to maintain RIR 2.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 60,
-            "unit": "lb",
-            "reps": 12,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d4e4",
-          "weight": 15,
-          "targetReps": 20,
-          "increment": null,
-          "reason": "Nov 5 repeated 15×20 on four sets ending RIR 3, up from RIR 1 at the same reps on Oct 29. What is the smallest available cable step above 15? Trial it at 12–15 reps and RIR 2, returning to 15 if the minimum is too hard. Until confirmed use 15×20.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 15,
-            "unit": "lb",
-            "reps": 20,
-            "rir": 3,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d4e5",
-          "weight": 90,
-          "targetReps": 20,
-          "increment": null,
-          "reason": "Nov 5 held 90 across 18/20/20 at RIR 2 on the confirmed machine after Nov 3 ramped 70/75/90×20. Keep 90 and build the opening set toward 20 at RIR 2. The older successful 100 setting is a bounded trial at 12–15 once all three sets reach 20 with reserve.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 90,
-            "unit": "lb",
-            "reps": 20,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d4e6",
-          "weight": 90,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "Nov 5 at confirmed 90 improved to 15/15/14 ending RIR 1 from Oct 31 15/14/12 ending RIR 0. Start with 12 reps and stop at RIR 2. Keep 90 while improving repeatability and use demonstrated 80 if the minimum 10 exceeds target effort.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 90,
-            "unit": "lb",
-            "reps": 14,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d4e7",
-          "weight": 65,
-          "targetReps": 10,
-          "increment": null,
-          "reason": "Nov 5 recorded 65×15/10/10 at RIR 3/2/2, versus Oct 29 65×15/12 ending RIR 0 after a 60 opening set. Repeat 65×10 across sets, then build reps while maintaining RIR 2. The late drop from 15 to 10 argues against adding load. Confirm the same rope and stack given the older 55 label.",
-          "lastSet": {
-            "date": "2026-11-05",
-            "weight": 65,
-            "unit": "lb",
-            "reps": 10,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         }
       ]
     },
     {
-      "week": 4,
-      "day": 5,
-      "dayLabel": "Friday - Lower B — Posterior Chain",
-      "exercises": [
+      "id": "RG-20261116",
+      "date": "2026-11-16",
+      "week": 2,
+      "title": "Steady endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
         {
-          "exerciseId": "w4d5e1",
-          "weight": 180,
-          "targetReps": 15,
-          "increment": null,
-          "reason": "Nov 6 repeated 180 for 3x15 all RIR 2, versus Oct 30 15/15/15 at RIR 3/3/2 and Oct 22 3x10. Ceiling supports a conditional smallest available same-machine step for 10–12 at RIR 2; what step follows 180? Until confirmed hold 180x15. Older 200/230 sets lack effort/setup and the 2007 entry is unresolved, not a usable load.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": 180,
-            "unit": "lb",
-            "reps": 15,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d5e2",
-          "weight": 200,
-          "targetReps": 15,
-          "increment": null,
-          "reason": "Nov 6 and Oct 30 both 200x15 twice at RIR 2, up from Oct 22 200x12. Trial the smallest confirmed same-machine step for 12 at RIR 2; what setting follows 200? Retain 200x15 until known. Older 210/230 records lack current effort/setup confirmation; do not assume equivalence.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": 200,
-            "unit": "lb",
-            "reps": 15,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
+          "label": "Steady endurance",
+          "kind": "work",
+          "seconds": 1500,
+          "effort": "4",
+          "rate": "20\u201322"
         },
         {
-          "exerciseId": "w4d5e3",
-          "weight": 140,
-          "targetReps": 14,
-          "increment": null,
-          "reason": "Initialize at demonstrated 140. Nov 6 14/13/14 all RIR 2 versus Oct 30 14/15/15 ending RIR 1 and Oct 22 3x10 at RIR 2. Aim 14 each, then build to 15 without forcing effort; no load increase until repeatable at the ceiling.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": 140,
-            "unit": "lb",
-            "reps": 14,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d5e4",
-          "weight": 45,
-          "targetReps": 15,
-          "increment": null,
-          "reason": "Initialize at 45: Nov 6 all three sets 45x15 at RIR 2, after Oct 30 successfully ramped 25/45/45x15 and Oct 22 25x10. Do not revert to 25. Ceiling supports a conditional smallest available added-load step for 10–12 at RIR 2; what safe increment is available? Until confirmed hold 45x15.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": 45,
-            "unit": "lb",
-            "reps": 15,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d5e5",
-          "weight": 300,
-          "targetReps": 18,
-          "increment": null,
-          "reason": "Nov 6 300x20/20/20 ended RIR 1, better than Oct 30 20/20/19 ending RIR 0, but late fatigue remains. Keep 300, start 18 each at RIR 2 rather than exhausting reserve early. Fewer reps within 12–20 should restore effort; reduce to a confirmed lower setting if minimum reps exceed effort. Older heavier sets lack RIR/setup evidence; no load increase.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": 300,
-            "unit": "lb",
-            "reps": 20,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": "total"
-          },
-          "restSeconds": 90
-        },
-        {
-          "exerciseId": "w4d5e7",
-          "weight": null,
-          "targetReps": 1,
-          "increment": null,
-          "reason": "Nov 6 completed 20 min at approximately 2.6 mph/10%, versus Oct 30 10 min at 2.7 mph/11%; Nov 4 separate cardio day was 40 min at 2.6/10. Preserve this day's 15–20 min conversational target, with 2.6/10 only a demonstrated reference. No automatic intensity increase and no resistance load.",
-          "lastSet": {
-            "date": "2026-11-06",
-            "weight": null,
-            "unit": "",
-            "reps": 0,
-            "rir": null,
-            "bodyweight": false,
-            "loadSemantics": "total",
-            "kind": "cardio",
-            "durationMinutes": 20,
-            "speedMph": 2.600000000000001,
-            "inclinePercent": 10
-          },
-          "restSeconds": 90
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         }
       ]
     },
     {
-      "week": 4,
-      "day": 6,
-      "dayLabel": "Saturday - Upper C — Chest + Arms + Delts",
-      "exercises": [
+      "id": "RG-20261118",
+      "date": "2026-11-18",
+      "week": 2,
+      "title": "Longer intervals",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
         {
-          "exerciseId": "w4d6e1",
-          "weight": 85,
-          "targetReps": 9,
-          "increment": null,
-          "reason": "At 85 per hand, 10/10/9/9 ends RIR 2 vs 8 at RIR 1 previously. Start at 9 and stop at RIR 2.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 85,
-            "reps": 9,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "85 lb per hand"
-          },
-          "restSeconds": 90
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d6e2",
-          "weight": 80,
-          "targetReps": 15,
-          "increment": null,
-          "reason": "80 x15 twice ended RIR 2 vs 1 previously. Confirm smallest cable step for a trial at 10–12; otherwise repeat 80.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 80,
-            "reps": 15,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": ""
-          },
-          "restSeconds": 90
+          "label": "Longer intervals 1/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
         },
         {
-          "exerciseId": "w4d6e4",
-          "weight": 70,
-          "targetReps": 11,
-          "increment": null,
-          "reason": "70 x12/11/11 ended RIR 2 vs 1 at 11 previously. Target 11 across before rebuilding to 12.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 70,
-            "reps": 11,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": "70 lb total"
-          },
-          "restSeconds": 90
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d6e5",
-          "weight": 30,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "30 x14/14/12 ended RIR 1 vs 15 at RIR 2 previously. Keep 30, start at 12 to preserve reserve; reduce reps within range if needed.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 30,
-            "reps": 12,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": ""
-          },
-          "restSeconds": 90
+          "label": "Longer intervals 2/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
         },
         {
-          "exerciseId": "w4d6e7",
-          "weight": 25,
-          "targetReps": 12,
-          "increment": null,
-          "reason": "25 x14/13/12 ended with two RIR 1 sets. Hold 25 and start at 12 rather than forcing 14.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 25,
-            "reps": 12,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": ""
-          },
-          "restSeconds": 90
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d6e8",
-          "weight": 30,
-          "targetReps": 14,
-          "increment": null,
-          "reason": "30 x15 three times ended RIR 1 vs 14 at RIR 1 previously. Use 14 for RIR 2 before increasing load.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 30,
-            "reps": 15,
-            "rir": 1,
-            "bodyweight": false,
-            "loadSemantics": ""
-          },
-          "restSeconds": 90
+          "label": "Longer intervals 3/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
         },
         {
-          "exerciseId": "w4d6e10",
-          "weight": 75,
-          "targetReps": 13,
-          "increment": null,
-          "reason": "70 x15 at RIR 4 then 75 x15 at RIR 2 supports 75 as working load. Start at 13 and build to 15 across sets.",
-          "restSeconds": 90,
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 75,
-            "reps": 15,
-            "rir": 2,
-            "bodyweight": false,
-            "loadSemantics": ""
-          }
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         },
         {
-          "exerciseId": "w4d6e11",
-          "weight": 25,
-          "targetReps": 17,
-          "increment": null,
-          "reason": "25 per hand x15 three times at RIR 3; previously 20 at RIR 2. Progress to 17 before testing 20.",
-          "lastSet": {
-            "date": "2026-11-07",
-            "weight": 25,
-            "reps": 15,
-            "rir": 3,
-            "userComment": {
-              "text": "New program - probably should have started new on Monday. Did this same excess yesteday",
-              "date": "2026-11-07"
-            },
-            "bodyweight": false,
-            "loadSemantics": "25 lb per hand"
-          },
-          "restSeconds": 90
+          "label": "Longer intervals 4/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261120",
+      "date": "2026-11-20",
+      "week": 2,
+      "title": "Aerobic technique",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 1/3",
+          "kind": "work",
+          "seconds": 420,
+          "effort": "4",
+          "rate": "18"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 2/3",
+          "kind": "work",
+          "seconds": 420,
+          "effort": "4",
+          "rate": "20"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 3/3",
+          "kind": "work",
+          "seconds": 420,
+          "effort": "4",
+          "rate": "22"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261121",
+      "date": "2026-11-21",
+      "week": 2,
+      "title": "Long endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Long endurance",
+          "kind": "work",
+          "seconds": 1800,
+          "effort": "3\u20134",
+          "rate": "18\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261123",
+      "date": "2026-11-23",
+      "week": 3,
+      "title": "Steady endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Steady endurance",
+          "kind": "work",
+          "seconds": 1800,
+          "effort": "4",
+          "rate": "20\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261125",
+      "date": "2026-11-25",
+      "week": 3,
+      "title": "Sustained intervals",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Sustained intervals 1/3",
+          "kind": "work",
+          "seconds": 300,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Sustained intervals 2/3",
+          "kind": "work",
+          "seconds": 300,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Sustained intervals 3/3",
+          "kind": "work",
+          "seconds": 300,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261127",
+      "date": "2026-11-27",
+      "week": 3,
+      "title": "Aerobic technique",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 1/3",
+          "kind": "work",
+          "seconds": 480,
+          "effort": "4",
+          "rate": "18"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 2/3",
+          "kind": "work",
+          "seconds": 480,
+          "effort": "4",
+          "rate": "20"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 3/3",
+          "kind": "work",
+          "seconds": 480,
+          "effort": "4",
+          "rate": "22"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261128",
+      "date": "2026-11-28",
+      "week": 3,
+      "title": "Long endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Long endurance",
+          "kind": "work",
+          "seconds": 2100,
+          "effort": "3\u20134",
+          "rate": "18\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
         }
       ]
     }
   ],
-  "sheetsReceipt": {
-    "spreadsheetId": "1sNIsfGpvUEk_qcd5oj23vur7xdBFrBC4NfxOs6WVML4",
-    "range": "'Workout Log'!A1183:V1205",
-    "verifiedAt": "2026-11-07T18:09:08.128Z",
-    "sessionIds": [
-      "1787f2c0-958c-4a94-9618-28b9b48e69df"
-    ]
-  }
+  "receipts": []
 }

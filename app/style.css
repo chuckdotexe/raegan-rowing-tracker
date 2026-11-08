@@ -47,3 +47,6 @@ fieldset{border:0;margin:0;padding:0;min-width:0}fieldset:disabled{opacity:.7}
 .target-rationale p,.active-workout .target-rationale p{font-size:14px;line-height:1.5;margin:10px 0 0;color:#e1e9f6}
 .active-workout .target-rationale{margin-top:10px}
 .active-workout .target-rationale summary{font-size:15px}
+
+/* Dedicated rowing screens; no strength-workout compact mode. */
+.rowing-page{max-width:680px;padding-bottom:40px}.rowing-page a{color:#b5d5ff;min-height:44px;display:inline-flex;align-items:center}.eyebrow{font-size:12px;letter-spacing:.12em;color:#9fc8ff}.connection-status{font-size:13px;color:#bac9dd}.segment-list{padding-left:24px}.segment-list li{padding:10px 8px;border-bottom:1px solid #324056}.segment-list span{display:block;color:#b8c8df;font-size:14px;margin-top:5px}.segment-list .current{background:#203e5c;border-radius:8px}.timer-big{text-align:center;font-size:56px;font-weight:700;font-variant-numeric:tabular-nums;margin:14px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px}.rowing-page textarea{width:100%;min-height:80px;background:#0d1422;color:white;border:1px solid #53647c;border-radius:8px;padding:10px;font:inherit}.rowing-page h2{display:block}.rowing-page .row>*{min-width:0}.rowing-page p{line-height:1.5}@media(max-width:360px){.two-col{grid-template-columns:1fr}.rowing-page .row{flex-wrap:wrap}}

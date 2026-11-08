@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "revision": "rowing-november-2026-v1",
+  "updatedAt": "2026-11-08T21:41:54.712783+00:00",
+  "name": "Raegan Rowing",
+  "seasonStart": "2026-12-01",
+  "restDates": [
+    "2026-11-30"
+  ],
+  "workouts": [
+    {
+      "id": "RG-20261109",
+      "date": "2026-11-09",
+      "week": 1,
+      "title": "Starting capacity",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Starting capacity",
+          "kind": "work",
+          "seconds": 1200,
+          "effort": "4",
+          "rate": "20\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261111",
+      "date": "2026-11-11",
+      "week": 1,
+      "title": "Controlled intervals",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 1/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 2/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 3/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 4/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Controlled intervals 5/5",
+          "kind": "work",
+          "seconds": 120,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261113",
+      "date": "2026-11-13",
+      "week": 1,
+      "title": "Aerobic technique",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 1/3",
+          "kind": "work",
+          "seconds": 360,
+          "effort": "4",
+          "rate": "18"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 2/3",
+          "kind": "work",
+          "seconds": 360,
+          "effort": "4",
+          "rate": "20"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 3/3",
+          "kind": "work",
+          "seconds": 360,
+          "effort": "4",
+          "rate": "22"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261114",
+      "date": "2026-11-14",
+      "week": 1,
+      "title": "Long endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Long endurance",
+          "kind": "work",
+          "seconds": 1500,
+          "effort": "3\u20134",
+          "rate": "18\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261116",
+      "date": "2026-11-16",
+      "week": 2,
+      "title": "Steady endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Steady endurance",
+          "kind": "work",
+          "seconds": 1500,
+          "effort": "4",
+          "rate": "20\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261118",
+      "date": "2026-11-18",
+      "week": 2,
+      "title": "Longer intervals",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Longer intervals 1/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Longer intervals 2/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Longer intervals 3/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Longer intervals 4/4",
+          "kind": "work",
+          "seconds": 180,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261120",
+      "date": "2026-11-20",
+      "week": 2,
+      "title": "Aerobic technique",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 1/3",
+          "kind": "work",
+          "seconds": 420,
+          "effort": "4",
+          "rate": "18"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 2/3",
+          "kind": "work",
+          "seconds": 420,
+          "effort": "4",
+          "rate": "20"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 3/3",
+          "kind": "work",
+          "seconds": 420,
+          "effort": "4",
+          "rate": "22"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261121",
+      "date": "2026-11-21",
+      "week": 2,
+      "title": "Long endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Long endurance",
+          "kind": "work",
+          "seconds": 1800,
+          "effort": "3\u20134",
+          "rate": "18\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261123",
+      "date": "2026-11-23",
+      "week": 3,
+      "title": "Steady endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Steady endurance",
+          "kind": "work",
+          "seconds": 1800,
+          "effort": "4",
+          "rate": "20\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261125",
+      "date": "2026-11-25",
+      "week": 3,
+      "title": "Sustained intervals",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Sustained intervals 1/3",
+          "kind": "work",
+          "seconds": 300,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Sustained intervals 2/3",
+          "kind": "work",
+          "seconds": 300,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 120,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Sustained intervals 3/3",
+          "kind": "work",
+          "seconds": 300,
+          "effort": "6",
+          "rate": "24\u201326"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261127",
+      "date": "2026-11-27",
+      "week": 3,
+      "title": "Aerobic technique",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 1/3",
+          "kind": "work",
+          "seconds": 480,
+          "effort": "4",
+          "rate": "18"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 2/3",
+          "kind": "work",
+          "seconds": 480,
+          "effort": "4",
+          "rate": "20"
+        },
+        {
+          "label": "Easy recovery",
+          "kind": "recovery",
+          "seconds": 60,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Aerobic technique 3/3",
+          "kind": "work",
+          "seconds": 480,
+          "effort": "4",
+          "rate": "22"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    },
+    {
+      "id": "RG-20261128",
+      "date": "2026-11-28",
+      "week": 3,
+      "title": "Long endurance",
+      "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+      "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+      "segments": [
+        {
+          "label": "Warm-up",
+          "kind": "warmup",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        },
+        {
+          "label": "Long endurance",
+          "kind": "work",
+          "seconds": 2100,
+          "effort": "3\u20134",
+          "rate": "18\u201322"
+        },
+        {
+          "label": "Cooldown",
+          "kind": "cooldown",
+          "seconds": 300,
+          "effort": "Very easy",
+          "rate": "Comfortable"
+        }
+      ]
+    }
+  ],
+  "receipts": []
+}

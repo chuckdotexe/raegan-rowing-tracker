@@ -4,7 +4,7 @@ import programInfo from '../data/program.json';
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const metadata = {
   title: programInfo.name + ' | Workout Tracker',
-  description: 'Personal workout logging and approved next-session targets',
+  description: 'Rowing prescriptions, interval timing and workout logging',
   manifest: base + '/manifest.webmanifest',
   icons: {icon: base + '/icon-192.png', apple: base + '/icon-192.png'},
   appleWebApp: {capable: true, statusBarStyle: 'default', title: programInfo.name},
