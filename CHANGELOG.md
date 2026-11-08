@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-08 — Clear effort scale
+
+Numeric effort targets now show “out of 10” on the workout list, active timer and upcoming workouts. Descriptive warm-up and recovery effort remains readable. Existing numeric results and JSON targets keep their values. Validation: production build and existing unit checks run before publication.
+
 ## 2026-11-08 — Independent rowing app
 
 Replaced the inherited strength UI and program with twelve dated November rowing workouts. Added discard for unsubmitted drafts and validation of cached preview data. Added segment timing, PM5 actuals, optional interval distances, effort and recovery feedback, pinned session prescriptions, upcoming workouts and a separate Git submission queue. Removed inherited lifting data, modules, tests and API-billed processing workflow. Browser storage, cache, manifest, repository defaults and deployment base path are specific to Raegan.

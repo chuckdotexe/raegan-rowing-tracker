@@ -3,7 +3,7 @@ import {useEffect,useState,useRef} from 'react';
 import Link from 'next/link';
 import initialPlan from '../data/rowing-plan.json';
 import {RowingStore} from '../lib/rowing-store.mjs';
-import {STORAGE,REPOSITORY,SHEET_ID,totalMinutes,clockLabel,validateSession,validatePlan,validateQueue,upcoming} from '../lib/rowing.mjs';
+import {STORAGE,REPOSITORY,SHEET_ID,totalMinutes,clockLabel,effortLabel,validateSession,validatePlan,validateQueue,upcoming} from '../lib/rowing.mjs';
 const localDate=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 function NumberField({label,value,onChange,min=0,max,step='any'}){return <label>{label}<input type="number" min={min} max={max} step={step} value={value} onChange={e=>onChange(e.target.value)}/></label>;}
 export default function Home(){
@@ -51,11 +51,11 @@ export default function Home(){
   {error&&<p role="alert">{error}</p>}{message&&<p role="status" className="card">{message}</p>}
   {!draft&&<label>Choose workout<select value={selected} onChange={e=>setSelected(e.target.value)}>{snapshot.plan.workouts.map(w=><option value={w.id} key={w.id}>{w.date} · {w.title}{done.has(w.id)?' · Submitted':''}</option>)}</select></label>}
   <section className="card"><p className="muted">{workout.date} · Week {workout.week}</p><h2>{workout.title}</h2><p className="workout-target">{totalMinutes(workout)} minutes total</p><p>{workout.instructions}</p><details className="target-rationale"><summary>Why this workout?</summary><p>{workout.reason}</p></details>
-   <ol className="segment-list">{workout.segments.map((s,i)=><li key={i} className={draft?.segment===i?'current':''}><strong>{s.label}</strong><span>{clockLabel(s.seconds)} · Effort {s.effort} · {s.rate} spm</span></li>)}</ol>
+   <ol className="segment-list">{workout.segments.map((s,i)=><li key={i} className={draft?.segment===i?'current':''}><strong>{s.label}</strong><span>{clockLabel(s.seconds)} · Effort {effortLabel(s.effort)} · {s.rate} spm</span></li>)}</ol>
    {!draft&&<button className="wide" onClick={begin} disabled={!ready||busy||done.has(workout.id)}>Start workout</button>}
   </section>
   {draft&&<>
-   <section className="card"><h2>{segment.label}</h2><p className="timer-big" aria-live="off">{clockLabel(remaining)}</p><p>Effort {segment.effort} · {segment.rate} spm</p><p className="muted">The timer pauses between segments. It does not measure meters. Use the PM5 for actual results.</p>
+   <section className="card"><h2>{segment.label}</h2><p className="timer-big" aria-live="off">{clockLabel(remaining)}</p><p>Effort {effortLabel(segment.effort)} · {segment.rate} spm</p><p className="muted">The timer pauses between segments. It does not measure meters. Use the PM5 for actual results.</p>
     <fieldset disabled={!!draft.submission||busy}><div className="row"><button onClick={timer} disabled={remaining===0}>{draft.deadline?'Pause timer':'Start timer'}</button><button className="secondary" onClick={()=>update({deadline:null,remaining:segment.seconds})}>Reset segment</button></div>
     {segment.kind==='work'&&<NumberField label="Segment distance (m, optional)" value={draft.intervalDistances[draft.segment]??''} onChange={v=>update({intervalDistances:{...draft.intervalDistances,[draft.segment]:v}})}/>}
     <button className="wide secondary" onClick={advance} disabled={draft.segment===workout.segments.length-1&&remaining===0}>{draft.segment===workout.segments.length-1?'End timer':'Next segment'}</button></fieldset>
