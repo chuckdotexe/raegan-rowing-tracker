@@ -69,6 +69,7 @@ export default function Home(){
     <label>Pain / symptoms (optional)<textarea value={draft.pain} onChange={e=>update({pain:e.target.value})}/></label>
    </fieldset>
    {draft.submission&&<p>The submitted results are locked until the save is confirmed. Retry safely if the connection failed.</p>}
+   {!draft.submission&&<button className="secondary wide" disabled={busy} onClick={()=>{if(window.confirm('Discard this unsubmitted workout?')){try{persist(null);setMessage('Draft discarded.');}catch(e){setError(e.message);}}}}>Discard unsubmitted draft</button>}
    <button className="wide" disabled={busy} onClick={finish}>{busy?'Saving…':draft.submission?'Retry save':'Finish & save workout'}</button></section>
   </>}
   <details className="card"><summary>GitHub connection</summary><p>Use a fine-grained token restricted to <strong>{REPOSITORY}</strong>, Contents: read and write. It is saved only in this browser. This app never uses your lifting tracker’s token.</p><form onSubmit={connect}><label>Repository token<input type="password" autoComplete="off" value={credential} onChange={e=>setCredential(e.target.value)}/></label><button disabled={busy}>Save connection</button></form>{token&&<button className="secondary" onClick={()=>{localStorage.removeItem(STORAGE.token);setToken('');setMessage('Disconnected. Saved workout retained.');}}>Disconnect</button>}</details>
