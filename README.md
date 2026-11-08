@@ -20,7 +20,7 @@ All submitted workouts in this public repository, including notes and cleared Gi
 
 ## Development
 
-Node 22+: `npm ci`, `npm test`, `npm run build`, `npm run typecheck`. Browser tests: `npx playwright install chromium webkit`, then `npm run test:e2e`. Tests simulate network and processing proofs; they do not prove live Sheet writes or physical iPhone behavior.
+Node 22+: `npm ci`, `npm test`, `npm run build`, `npm run typecheck`. Browser tests: `npx playwright install chromium webkit`, then `npm run test:e2e`. The manual browser-check workflow builds the app before testing Chromium and mobile WebKit. Tests simulate network and processing proofs; they do not prove live Sheet writes or physical iPhone behavior.
 
 GitHub Pages uses NEXT_PUBLIC_BASE_PATH=/raegan-rowing-tracker and publishes through GitHub Actions. Pages is configured to use GitHub Actions; no repository variable or Google secret is required. No deployment is implied by a successful build. The cache prefix and repair page affect only raegan-rowing caches, leaving the lifting app untouched.
 

@@ -6,5 +6,5 @@ Replaced the inherited strength UI and program with twelve dated November rowing
 
 Configured her separate Sheet and documented the ChatGPT processing workflow. Added validation and processing helpers for stable IDs/hashes, duplicate prevention, concurrent submissions, full A:P Sheet readback, new-arrival preservation and completed-prescription preservation.
 
-Validation: 9 unit tests passed; production build and TypeScript check passed. Browser tests were authored but could not run locally because required Playwright browser downloads returned invalid ZIP files. No live workout or Sheet submission was made. Pages is configured for GitHub Actions and the independent deployment workflow no longer depends on copied repository variables. Publication status must be confirmed independently after push.
+Validation: 9 unit tests passed; production build and TypeScript check passed. The browser CI workflow builds before serving. Browser tests were authored but could not run locally because required Playwright browser downloads returned invalid ZIP files. No live workout or Sheet submission was made. Pages is configured for GitHub Actions and the independent deployment workflow no longer depends on copied repository variables. Publication status must be confirmed independently after push.
 
