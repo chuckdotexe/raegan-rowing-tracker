@@ -12,7 +12,7 @@ Twelve workouts, November 9–28, 2026, Monday/Wednesday/Friday/Saturday. No Nov
 
 Published app: https://chuckdotexe.github.io/raegan-rowing-tracker/
 
-Open the app, choose a workout, and Start. Each segment has time, effort and stroke rate. Numeric effort is shown explicitly as “4 out of 10” (or “3–4 out of 10” for a range). The timer pauses between segments and survives refresh; use PM5 measurements for actual results. Optional per-work-segment distances are preserved in the submission. Record actual total minutes, meters, effort and completion; rate, notes and recovery ratings are optional. Next-day ratings should remain blank until known.
+Open the app, choose a workout, and Start. Each segment has time, effort and stroke rate. Numeric effort is shown explicitly as “4 out of 10” (or “3–4 out of 10” for a range). The timer pauses between segments and survives refresh; use PM5 measurements for actual results. Optional per-work-segment distances are preserved in the submission. Record actual total minutes, meters, effort and completion; rate, notes and current pain or symptoms are optional. Workout submission does not ask for next-day fatigue or soreness.
 
 An unsubmitted draft can be discarded after confirmation; uncertain submissions stay locked for retry. Finish saves to this repository using a fine-grained GitHub token restricted to this repository with Contents read/write. The token is remembered only on the device. A failed save retains the same frozen session and ID for safe retry. Acknowledged sessions are excluded from upcoming workouts. Offline logging uses the saved plan and clearly labels it. Refresh loads the published plan, while an active workout retains its original prescription.
 

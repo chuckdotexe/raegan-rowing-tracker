@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-09 — Remove recovery questions
+
+Removed next-day fatigue and soreness questions from workout submission. Existing saved drafts and retry submissions retain their data. Current pain or symptoms can still be recorded. Test fixtures use the starting plan so processed workout receipts do not affect their setup. Validation: all 9 unit tests and the production build passed.
+
 ## 2026-11-08 — Clear effort scale
 
 Numeric effort targets now show “out of 10” on the workout list, active timer and upcoming workouts. Descriptive warm-up and recovery effort remains readable. Existing numeric results and JSON targets keep their values. Validation: production build and existing unit checks run before publication.

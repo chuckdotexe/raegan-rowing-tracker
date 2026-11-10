@@ -65,7 +65,6 @@ export default function Home(){
     {+draft.minutes>0&&+draft.distance>0&&<p>Average split: {clockLabel(+draft.minutes*60/+draft.distance*500)} /500m</p>}
     <label>Completed as prescribed?<select value={draft.completed} onChange={e=>update({completed:e.target.value})}><option value="">Choose…</option><option value="yes">Yes</option><option value="no">No, shortened or changed</option></select></label>
     <label>Technique / notes<textarea value={draft.notes} onChange={e=>update({notes:e.target.value})}/></label>
-    <details><summary>Recovery feedback (optional, add only when known)</summary><p>Leave next-day ratings blank when submitting immediately. Tell ChatGPT later how you recovered.</p><NumberField label="Next-day fatigue (0–10)" value={draft.fatigue} onChange={v=>update({fatigue:v})} max={10}/><NumberField label="Next-day soreness (0–10)" value={draft.soreness} onChange={v=>update({soreness:v})} max={10}/></details>
     <label>Pain / symptoms (optional)<textarea value={draft.pain} onChange={e=>update({pain:e.target.value})}/></label>
    </fieldset>
    {draft.submission&&<p>The submitted results are locked until the save is confirmed. Retry safely if the connection failed.</p>}

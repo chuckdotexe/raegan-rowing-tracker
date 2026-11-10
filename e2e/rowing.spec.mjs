@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';import fs from 'node:fs';
-const plan=JSON.parse(fs.readFileSync('next-week.json','utf8'));
+const plan=JSON.parse(fs.readFileSync('data/rowing-plan.json','utf8'));
 const encode=x=>Buffer.from(JSON.stringify(x)).toString('base64');
 test('rower can restore a draft and safely retry a failed save',async({page})=>{
  let queue={schemaVersion:1,sessions:[]},writes=0,fail=true;
