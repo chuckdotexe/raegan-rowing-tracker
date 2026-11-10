@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "rowing-november-2026-v1",
-  "updatedAt": "2026-11-08T21:41:54.712073+00:00",
+  "revision": "rowing-november-2026-v2",
+  "updatedAt": "2026-11-10T00:53:43.055Z",
   "name": "Raegan Rowing",
   "seasonStart": "2026-12-01",
   "restDates": [
@@ -28,7 +28,7 @@
           "kind": "work",
           "seconds": 1200,
           "effort": "4",
-          "rate": "20\u201322"
+          "rate": "20–22"
         },
         {
           "label": "Cooldown",
@@ -59,7 +59,7 @@
           "kind": "work",
           "seconds": 120,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -73,7 +73,7 @@
           "kind": "work",
           "seconds": 120,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -87,7 +87,7 @@
           "kind": "work",
           "seconds": 120,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -101,7 +101,7 @@
           "kind": "work",
           "seconds": 120,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -115,7 +115,7 @@
           "kind": "work",
           "seconds": 120,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Cooldown",
@@ -204,8 +204,8 @@
           "label": "Long endurance",
           "kind": "work",
           "seconds": 1500,
-          "effort": "3\u20134",
-          "rate": "18\u201322"
+          "effort": "3–4",
+          "rate": "18–22"
         },
         {
           "label": "Cooldown",
@@ -236,7 +236,7 @@
           "kind": "work",
           "seconds": 1500,
           "effort": "4",
-          "rate": "20\u201322"
+          "rate": "20–22"
         },
         {
           "label": "Cooldown",
@@ -267,7 +267,7 @@
           "kind": "work",
           "seconds": 180,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -281,7 +281,7 @@
           "kind": "work",
           "seconds": 180,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -295,7 +295,7 @@
           "kind": "work",
           "seconds": 180,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -309,7 +309,7 @@
           "kind": "work",
           "seconds": 180,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Cooldown",
@@ -398,8 +398,8 @@
           "label": "Long endurance",
           "kind": "work",
           "seconds": 1800,
-          "effort": "3\u20134",
-          "rate": "18\u201322"
+          "effort": "3–4",
+          "rate": "18–22"
         },
         {
           "label": "Cooldown",
@@ -430,7 +430,7 @@
           "kind": "work",
           "seconds": 1800,
           "effort": "4",
-          "rate": "20\u201322"
+          "rate": "20–22"
         },
         {
           "label": "Cooldown",
@@ -461,7 +461,7 @@
           "kind": "work",
           "seconds": 300,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -475,7 +475,7 @@
           "kind": "work",
           "seconds": 300,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Easy recovery",
@@ -489,7 +489,7 @@
           "kind": "work",
           "seconds": 300,
           "effort": "6",
-          "rate": "24\u201326"
+          "rate": "24–26"
         },
         {
           "label": "Cooldown",
@@ -578,8 +578,8 @@
           "label": "Long endurance",
           "kind": "work",
           "seconds": 2100,
-          "effort": "3\u20134",
-          "rate": "18\u201322"
+          "effort": "3–4",
+          "rate": "18–22"
         },
         {
           "label": "Cooldown",
@@ -591,5 +591,20 @@
       ]
     }
   ],
-  "receipts": []
+  "receipts": [
+    {
+      "sessionId": "c3c96d1b-c056-462e-bec1-a158bb589720",
+      "workoutId": "RG-20261109",
+      "hash": "c06050edd84fcfb1264bcdeaeeaac6f0af751766ed058d9623719c8765993097",
+      "sheetRow": 2,
+      "processedAt": "2026-11-10T00:53:17.320Z"
+    }
+  ],
+  "review": {
+    "decision": "Hold current prescriptions",
+    "reason": "First session; effort 5/10 versus prescribed 4/10; erg pauses with clock running make pace unreliable; next-day recovery unknown. No added duration or intensity.",
+    "sessionIds": [
+      "c3c96d1b-c056-462e-bec1-a158bb589720"
+    ]
+  }
 }
