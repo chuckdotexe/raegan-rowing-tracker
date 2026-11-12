@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "rowing-november-2026-v3",
-  "updatedAt": "2026-11-12T17:33:12.283Z",
+  "revision": "rowing-november-2026-v4",
+  "updatedAt": "2026-11-12T20:25:42.456Z",
   "name": "Raegan Rowing",
   "seasonStart": "2026-12-01",
   "restDates": [
@@ -609,7 +609,7 @@
   ],
   "review": {
     "decision": "Hold current prescriptions",
-    "reason": "Both logged sessions were completed, but 11/9 effort was 5/10 versus target 4/10 and 11/11 effort was 7/10 versus target 6/10. Erg pauses on 11/9 and contradictory warm-up inclusion notes on 11/11 make splits noncomparable. Next-day recovery and current pain are unreported. Insufficient evidence to increase duration or intensity; preserve the remaining November prescriptions.",
+    "reason": "Both logged sessions were completed; November 9 effort was 5/10 versus target 4/10 and November 11 effort was 7/10 versus target 6/10. Erg pauses on November 9 and contradictory warm-up distance notes on November 11 make calculated splits noncomparable. Retain current prescribed efforts and durations until comparable on-target sessions support progression.",
     "sessionIds": [
       "c3c96d1b-c056-462e-bec1-a158bb589720",
       "3723c835-5064-4748-91b3-de213134da85"

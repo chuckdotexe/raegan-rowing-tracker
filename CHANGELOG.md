@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-12 — Remove obsolete next-day feedback from processing and Sheet
+
+Removed next-day fatigue and soreness from new rowing submissions, validation, Sheet rows and manual processing instructions. Workout Log uses 14 columns (A:N), retaining the pain/symptoms and adjustment fields. Legacy queued submissions retain their original payloads and hashes for safe acknowledgment. Updated tests and the published review rationale. Deleted the two unused Google Sheet columns separately with verification.
+
 ## 2026-11-09 — Remove recovery questions
 
 Removed next-day fatigue and soreness questions from workout submission. Existing saved drafts and retry submissions retain their data. Current pain or symptoms can still be recorded. Test fixtures use the starting plan so processed workout receipts do not affect their setup. Validation: all 9 unit tests and the production build passed.
