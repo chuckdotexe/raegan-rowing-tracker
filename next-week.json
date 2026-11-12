@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "rowing-november-2026-v2",
-  "updatedAt": "2026-11-10T00:53:43.055Z",
+  "revision": "rowing-november-2026-v3",
+  "updatedAt": "2026-11-12T17:33:12.283Z",
   "name": "Raegan Rowing",
   "seasonStart": "2026-12-01",
   "restDates": [
@@ -598,13 +598,21 @@
       "hash": "c06050edd84fcfb1264bcdeaeeaac6f0af751766ed058d9623719c8765993097",
       "sheetRow": 2,
       "processedAt": "2026-11-10T00:53:17.320Z"
+    },
+    {
+      "sessionId": "3723c835-5064-4748-91b3-de213134da85",
+      "workoutId": "RG-20261111",
+      "hash": "4d089bbf9be283b9e0c4aeefb6710d870f917c99fa9fa8c9e50d8500b815824b",
+      "sheetRow": 3,
+      "processedAt": "2026-11-12T17:31:08.325Z"
     }
   ],
   "review": {
     "decision": "Hold current prescriptions",
-    "reason": "First session; effort 5/10 versus prescribed 4/10; erg pauses with clock running make pace unreliable; next-day recovery unknown. No added duration or intensity.",
+    "reason": "Both logged sessions were completed, but 11/9 effort was 5/10 versus target 4/10 and 11/11 effort was 7/10 versus target 6/10. Erg pauses on 11/9 and contradictory warm-up inclusion notes on 11/11 make splits noncomparable. Next-day recovery and current pain are unreported. Insufficient evidence to increase duration or intensity; preserve the remaining November prescriptions.",
     "sessionIds": [
-      "c3c96d1b-c056-462e-bec1-a158bb589720"
+      "c3c96d1b-c056-462e-bec1-a158bb589720",
+      "3723c835-5064-4748-91b3-de213134da85"
     ]
   }
 }
