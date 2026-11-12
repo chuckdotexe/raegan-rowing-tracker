@@ -1,4 +1,110 @@
 {
   "schemaVersion": 1,
-  "sessions": []
+  "sessions": [
+    {
+      "id": "3723c835-5064-4748-91b3-de213134da85",
+      "workoutId": "RG-20261111",
+      "date": "2026-11-11",
+      "startedAt": "2026-11-11T22:18:29.819Z",
+      "finishedAt": "2026-11-12T01:00:02.384Z",
+      "planRevision": "rowing-november-2026-v2",
+      "prescription": {
+        "id": "RG-20261111",
+        "date": "2026-11-11",
+        "week": 1,
+        "title": "Controlled intervals",
+        "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+        "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+        "segments": [
+          {
+            "label": "Warm-up",
+            "kind": "warmup",
+            "seconds": 300,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Controlled intervals 1/5",
+            "kind": "work",
+            "seconds": 120,
+            "effort": "6",
+            "rate": "24–26"
+          },
+          {
+            "label": "Easy recovery",
+            "kind": "recovery",
+            "seconds": 120,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Controlled intervals 2/5",
+            "kind": "work",
+            "seconds": 120,
+            "effort": "6",
+            "rate": "24–26"
+          },
+          {
+            "label": "Easy recovery",
+            "kind": "recovery",
+            "seconds": 120,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Controlled intervals 3/5",
+            "kind": "work",
+            "seconds": 120,
+            "effort": "6",
+            "rate": "24–26"
+          },
+          {
+            "label": "Easy recovery",
+            "kind": "recovery",
+            "seconds": 120,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Controlled intervals 4/5",
+            "kind": "work",
+            "seconds": 120,
+            "effort": "6",
+            "rate": "24–26"
+          },
+          {
+            "label": "Easy recovery",
+            "kind": "recovery",
+            "seconds": 120,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Controlled intervals 5/5",
+            "kind": "work",
+            "seconds": 120,
+            "effort": "6",
+            "rate": "24–26"
+          },
+          {
+            "label": "Cooldown",
+            "kind": "cooldown",
+            "seconds": 300,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          }
+        ]
+      },
+      "minutes": 28,
+      "distance": 3575,
+      "rate": null,
+      "effort": 7,
+      "completed": true,
+      "notes": "Distance does not include warmup. Distance does include warm up and intervals",
+      "fatigue": null,
+      "soreness": null,
+      "pain": "",
+      "intervals": []
+    }
+  ]
 }
