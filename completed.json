@@ -1,4 +1,80 @@
 {
   "schemaVersion": 1,
-  "sessions": []
+  "sessions": [
+    {
+      "id": "3b74bf68-b968-4384-b484-07feb2747f06",
+      "workoutId": "RG-20261113",
+      "date": "2026-11-18",
+      "startedAt": "2026-11-18T21:25:11.433Z",
+      "finishedAt": "2026-11-18T22:56:11.216Z",
+      "planRevision": "rowing-november-2026-v4",
+      "prescription": {
+        "id": "RG-20261113",
+        "date": "2026-11-13",
+        "week": 1,
+        "title": "Aerobic technique",
+        "reason": "Initial November return-to-rowing prescription. No current performance data yet.",
+        "instructions": "Conversational effort for easy work. Intervals are controlled, not sprints. Hold progression if recovery or technique suffers.",
+        "segments": [
+          {
+            "label": "Warm-up",
+            "kind": "warmup",
+            "seconds": 300,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Aerobic technique 1/3",
+            "kind": "work",
+            "seconds": 360,
+            "effort": "4",
+            "rate": "18"
+          },
+          {
+            "label": "Easy recovery",
+            "kind": "recovery",
+            "seconds": 60,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Aerobic technique 2/3",
+            "kind": "work",
+            "seconds": 360,
+            "effort": "4",
+            "rate": "20"
+          },
+          {
+            "label": "Easy recovery",
+            "kind": "recovery",
+            "seconds": 60,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          },
+          {
+            "label": "Aerobic technique 3/3",
+            "kind": "work",
+            "seconds": 360,
+            "effort": "4",
+            "rate": "22"
+          },
+          {
+            "label": "Cooldown",
+            "kind": "cooldown",
+            "seconds": 300,
+            "effort": "Very easy",
+            "rate": "Comfortable"
+          }
+        ]
+      },
+      "minutes": 20,
+      "distance": 3666,
+      "rate": 19,
+      "effort": 5,
+      "completed": false,
+      "notes": "Time and distance does not include warmup and cooldown\nWarmup was done in rower. Cooldown was done on treadmill for 7mins. \nAverage of around 2:35-2:40 for the “aerobic teqnique” part of the workout.\n",
+      "pain": "",
+      "intervals": []
+    }
+  ]
 }
